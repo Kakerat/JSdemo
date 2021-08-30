@@ -1,7 +1,7 @@
 hauki on kala
 
 
-<button type="button" onclick="Klikkaus"()" >Klikkaa Mua!</button>
+<button type="button" onclick="Klikkaus"() >Klikkaa Mua!</button>
 <h1>hauki</h1>
 
 <p>hauki on vienyt <p class="numero">0 </p> kertaa mun isän ongen </p>
@@ -10,7 +10,7 @@ hauki on kala
 
     function Klikkaus(){
         klikkaukset++
-        document.getElementById("numero").innerHTML = klikkaukset.toString ()
+        document.getElementById("numero").innerHTML = klikkaukset
         if(klikkaukset > 50){
             alert ("LOPETA")
         }
