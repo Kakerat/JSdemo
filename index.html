@@ -3,7 +3,7 @@ hauki on kala
 
 <button type="button" onclick="Klikkaus()" >Klikkaa Mua!</button>
 <h1>hauki</h1>
-<img onclick="Klikkaus()" src="munakuva.png" id="munakuva">
+<img onclick="Klikkaus()" src="munakuva.png" id="muna">
 <p>hauki on vienyt <p id="numero"> 0 </p> kertaa mun isän ongen </p>
 
 <script>
@@ -14,7 +14,7 @@ hauki on kala
         document.getElementById("numero").innerHTML = klikkaukset
         
         if(klikkaukset > 10){
-            document.getElementById("munakuva").src = "rikkimuna.png"
+            document.getElementById("muna").src = "rikkimuna.png"
             alert ("LOPETA")
         }
     }    
